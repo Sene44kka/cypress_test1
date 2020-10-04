@@ -7,7 +7,8 @@ describe('Facebook signin signup tests', () => {
         cy.visit('http://facebook.com');
         cy.get('[data-testid=open-registration-form-button]').click();
         
-
+        
+        
     });
 
     it('FB signup page', ()=>{
